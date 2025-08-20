@@ -16,3 +16,33 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--black);
 }
+h2 {
+    color: var(--beige);
+}
+ul {
+    list-style-type: circle;
+    margin-left: 3em;
+    padding: 1em 0 1em 0;
+}
+li {
+    padding: 0 0 .5em 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.div {
+    grid-column: 2 / 3;
+    width: 30em;
+    margin-top: 7em;
+}
+.divider {
+    width: 31em;
+    height: .5em;
+    background-color: var(--beige);
+    border-radius: .5em;
+}
+.text {
+    margin-left: 2em;
+    padding: 1em 0 1em 0;
+}
