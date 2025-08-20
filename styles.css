@@ -50,6 +50,10 @@ li {
 }
 img {
     width: 30em;
+    border-radius: 5%;
+    border-width: .5em;
+    border-color: var(--pink);
+    border-style: solid;
 }
 .img-container {
     grid-column: 1 / 2;
