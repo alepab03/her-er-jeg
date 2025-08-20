@@ -31,10 +31,12 @@ li {
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.div {
+.content-container {
     grid-column: 2 / 3;
     width: 30em;
     margin-top: 7em;
+    display: flex;
+    flex-direction: column;
 }
 .divider {
     width: 31em;
