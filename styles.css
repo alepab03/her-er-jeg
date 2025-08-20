@@ -76,3 +76,12 @@ h1 {
 header .divider{
     background-color: var(--pink);
 }
+.li-2 {
+    margin-left: 2em;
+}
+a {
+    color: var(--pink);
+}
+a:hover {
+    color: var(--beige);
+}
