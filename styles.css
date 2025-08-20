@@ -58,3 +58,17 @@ img {
     flex-direction: column;
     align-items: center;
 }
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+}
+h1 {
+    color: var(--pink);
+    font-weight: 900;
+    font-size: 2.5em;
+}
+header .divider{
+    background-color: var(--pink);
+}
